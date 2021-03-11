@@ -36,11 +36,11 @@ L.tileLayer.hongKong("label.en").addTo(map);
 
 Available options for ```L.TileLayer.HongKong```
 
-*   [basemap.topography](#basemap.topography) - Topography basemap
-*   [basemap.imagery](#basemap.imagery) - Imagery basemap
-*   [label.en](#label.en) - English label
-*   [label.tc](#label.tc) - Traditional Chinese label
-*   [label.sc](#label.sc) - Simplified Chinese label
+*   [basemap.topography](#basemaptopography) - Topography basemap
+*   [basemap.imagery](#basemapimagery) - Imagery basemap
+*   [label.en](#labelen) - English label
+*   [label.tc](#labeltc) - Traditional Chinese label
+*   [label.sc](#labelsc) - Simplified Chinese label
 
 
 ## L.LayerGroup.HongKong
