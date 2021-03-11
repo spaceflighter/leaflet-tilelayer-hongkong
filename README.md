@@ -1,4 +1,4 @@
-### Leaflet Hong Kong Tile Plugin
+# Leaflet Hong Kong Tile Plugin
 
 A Leaflet JS plugin to load the tile for Hong Kong Region
 
@@ -12,12 +12,29 @@ There have 5 types of tile:
 
 # Usage
 
+There have 2 type of layer provided for this plugin
+
+*   [L.TileLayer.HongKong](#ltilelayerhongkong) - Tilelayer either for basemap or label
+*   [L.LayerGroup.HongKong](#llayergrouphongkong) - LayerGroup includes basemap and label overlay
+
+
 #### Include the JS
 ```html
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <!-- Should include leaflet.js and leaflet.css before leaflet-hongkong-provider.js  -->
 <script src="./leaflet-hongkong-provider.js"></script>
+```
+
+Load the tile layer to the map on HTML body
+```html
+<div>
+    <div id="map"></div>
+</div>
+<script>
+    var map = L.map('map').setView([22.245251, 114.188409], 13);
+    L.layerGroup.hongKong("topography.tc").addTo(map;)
+</script>
 ```
 
 ## L.TileLayer.HongKong
