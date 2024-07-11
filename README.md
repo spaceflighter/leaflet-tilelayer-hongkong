@@ -1,6 +1,6 @@
 # Leaflet Hong Kong Tile Plugin
 
-A Leaflet JS plugin to load the tile for Hong Kong Region. From [Hong Kong GeoData Store](https://geodata.gov.hk) provider.
+A Leaflet JS plugin to load the tile for Hong Kong Region. From [CSDI](https://portal.csdi.gov.hk/csdi-webpage/) provider.
 
 There have 5 types of tile:
 
@@ -9,6 +9,9 @@ There have 5 types of tile:
 *   Label in English
 *   Label in Traditional Chinese
 *   Label in Simplified Chinese
+
+# Compatibility
+Tested with [Leaflet](https://leafletjs.com) 1.7.1 and 1.9.4
 
 # Usage
 
